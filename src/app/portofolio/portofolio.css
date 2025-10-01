@@ -1,0 +1,209 @@
+:root{
+  background: rgb(38, 38, 65);
+  background-size: 100%;
+  background-position: center;
+}
+
+/*========================== navbar ==========================*/
+
+.nav {
+    display: flex;
+    padding: 25px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(28, 25, 43);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 17px;    
+}
+
+.nav-kanan {
+    display: flex;
+    margin-left: auto;
+}
+
+.a-nav {
+    padding-left: 20px;
+}
+
+/*========================== navbar ==========================*/
+
+/*========================== nama ==========================*/
+.name {
+    display: flex;
+    padding: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.ul-name {
+    margin-top: 25px;
+}
+
+.nama1 {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.672);
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nama2 {
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.nama3 {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.529);
+    font-weight: bold;
+}
+
+.social-media {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.205);
+    border-radius: 50%;
+    margin-right: 10px;
+    backdrop-filter: blur(10px);
+    margin-top: 15px;
+    
+}
+
+.ul-social-media {
+    display: flex;
+}
+
+.more {
+    padding: 15px;
+    background-color: rgb(210, 200, 255);
+    border-radius: 25px;
+    width: 143px;
+    margin-top: 28px;
+    color: rgb(20, 26, 50);
+}
+
+/*========================== nama ==========================*/
+
+/*========================== muka samping nama ==========================*/
+.muka {
+    margin-top: 30px;
+    border-radius: 100%;
+    width: 350px;
+    border-color: rgb(147, 207, 247);
+    border-width: 3px;
+    margin-left: 240px;
+}
+/*========================== muka samping nama ==========================*/
+
+/*========================== about me ==========================*/
+.about {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.about-me-container {
+    padding-top: 56px;
+}
+
+.about-me-judul {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 90px;
+}
+
+.about-me {
+    padding-left: 90px;
+    padding-right: 90px;
+    color: white;
+    width: 800px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.muka2 {
+    border-radius: 100%;
+    width: 300px;
+    border-color: rgb(147, 207, 247);
+    border-width: 3px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+/*========================== about me ==========================*/
+
+/*========================== my service ==========================*/
+.my-service {
+ padding-top: 75px;
+ justify-items: center;
+}
+
+.my-service-judul {
+    font-weight:600;
+    font-size: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 85px;
+}
+
+.my-service-konten {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 90px;
+    color: white;
+    
+}
+
+.my-service-box {
+    background-color: rgb(100, 116, 138);
+    border-color:rgb(140, 165, 193) ;
+    border-width: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    justify-items: center;
+}
+
+.judul-service {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    justify-self: center;
+    padding-bottom: 20px;
+}
+
+.isi-service {
+    font-size: small;
+}
+
+.more-service {
+    justify-self: center;
+    padding: 15px;
+    background-color: rgb(79, 87, 123);
+    border-radius: 25px;
+    width: 143px;
+    margin-top: 28px;
+    color: rgb(255, 255, 255);
+}
+
+/*========================== my service ==========================*/
+
+/*========================== contact me ==========================*/
+
+.contact-me-main {
+    padding: 60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    color: white;
+    background-color: rgb(56, 60, 95) ;
+}
