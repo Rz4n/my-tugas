@@ -21,7 +21,7 @@ export default function page() {
                 </button>
             </div>
             <div>
-                <button type="submit" className="btn2">
+                <button type="submit" className="btn2" onClick={() => window.location.reload()}>
                     bersih
                 </button>
             </div>
