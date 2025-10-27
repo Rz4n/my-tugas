@@ -1,11 +1,14 @@
-import React from 'react'
+"use client";
+import React from "react";
+import { useRouter } from "next/navigation";
 import "./page.css";
 import Image from "next/image";
-import superman from "./superman.jpg"
-import suzume from "./suzume.jpg"
-import interstelar from "./interstelar.jpg"
+import superman from "./superman.jpg";
+import suzume from "./suzume.jpg";
+import interstelar from "./interstelar.jpg";
 
 export default function bioskop() {
+  const router = useRouter();
   return (
     <div className='bg'>
       <div>
@@ -25,21 +28,21 @@ export default function bioskop() {
             <p>
               <Image src={interstelar} alt="interstelar" width={186} className='gmbr'/>
               <h3>Interstelar</h3>  
-              <h2 className='btn'>beli tiket</h2>
+              <h2 className='btn' onClick={()=> router.push("./bioskop/pesan")}>beli tiket</h2>
             </p>
           </div>
           <div className='kotak'>
             <p>
               <Image src={suzume} alt="suzume" width={175} className='gmbr'/>
               <h3>Suzume</h3>
-              <h2 className='btn'>beli tiket</h2>
+              <h2 className='btn' onClick={()=> router.push("./bioskop/pesan")}>beli tiket</h2>
             </p>
           </div>
           <div className='kotak'>
             <p>
               <Image src={superman} alt="superman" width={177.5} className='gmbr'/>
               <h3>Superman 2025</h3>
-              <h2 className='btn'>beli tiket</h2>
+              <h2 className='btn' onClick={()=> router.push("./bioskop/pesan")}>beli tiket</h2>
             </p>
           </div>
         </div>

@@ -1,0 +1,116 @@
+.bg{
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.nama{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.nav{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    background-color: #201515;
+    padding-bottom: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav_kiri{
+    display: flex;
+}
+
+.nav_kanan{
+    display: flex;
+    margin-left: auto;
+}
+
+.btn_kanan{
+    margin-right: 20px;
+    color: white;
+}
+
+.btn_kiri{
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(121, 29, 29);
+    border-radius: 5px;
+}
+
+.btn_kiri:hover{
+    background-color: rgb(156, 39, 39);
+}
+
+.search{
+    background-color: rgb(114, 78, 78);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.isi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.kotak_pesan{
+    background-color: #201515;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    margin-top: 120;
+    margin-bottom: 50px;
+}
+
+.judul{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nama, .gmail, .film, .tiket, .jumlah{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input, select{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.pesan_btn{
+    background-color: rgb(121, 29, 29);
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.pesan_btn:hover{
+    background-color: rgb(180, 24, 24);
+}   
